@@ -37,7 +37,6 @@
         "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.development.js",
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.development.js",
         "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
-        "@cpo-app":"//localhost:3001/static/js/main.chunk.js"
       }
     }
   </script>
@@ -48,8 +47,6 @@
 
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="systemjs-importmap" src="/importmap.json"></script> -->
-  <!-- "@cpo-app":"//localhost:3001/static/js/main.chunk.js" -->
-  <!-- "@cpo-app":"//localhost:8080/spa-component-component-spa-project.js" -->
 
 
   <!-- 
@@ -93,7 +90,6 @@
     System.import('react');
     System.import('react-dom');
     System.import('@container-spa/root-config');
-    // System.import('cpo-app');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
