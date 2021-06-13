@@ -1,4 +1,4 @@
 {
-  "extends": ["important-stuff", "plugin:prettier/recommended"],
+  "extends": ["plugin:react/recommended", "standard"],
   "parser": "@babel/eslint-parser"
 }
