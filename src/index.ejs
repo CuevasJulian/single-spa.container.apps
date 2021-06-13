@@ -45,7 +45,13 @@
 
   <!-- agrego esto segun la guia de root config -->
   <script type="systemjs-importmap" src="https://storage.googleapis.com/polyglot.microfrontends.app/importmap.json"></script>
-
+  <script>
+    window.less = {
+        async: true,
+        env: 'production'
+    };
+    </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="systemjs-importmap" src="/importmap.json"></script> -->
 
@@ -86,6 +92,7 @@
   <% } %>
 </head>
 <body>
+  
   <main></main>
   <script>
     System.import('react');
